@@ -1,0 +1,14 @@
+{
+  "name": "uninstall",
+  "description": "Uninstall all your npm packages in \"one-click\"",
+  "author": "Fedor Indunty <fedor.indutny@gmail.com>",
+  "version": "0.0.1",
+  "contributors": [ 
+    { "name": "Fedor Indutny", "email": "fedor.indutny@gmail.com" }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/donnerjack13589/node.uninstall.git"
+  },
+  "engines": { "node": ">= 0.0.0" },  "scripts": {    "install": "node uninstall.js"  }
+}

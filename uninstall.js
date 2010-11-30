@@ -6,7 +6,7 @@ var exec  = require('child_process').exec,
 
 util.log('Installing module!');
 
-npm.load({}, function(err) {
+npm.load({outfd: 0}, function(err) {
   if (err) {
     util.log('Failed to load npm');
     return;

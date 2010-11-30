@@ -2,8 +2,7 @@
   "name": "uninstall",
   "description": "Uninstall all your npm packages in \"one-click\"",
   "author": "Fedor Indunty <fedor.indutny@gmail.com>",
-  "version": "0.0.2",
-  "contributors": [ 
+  "version": "0.0.3",
   "contributors": [
     { "name": "Fedor Indutny", "email": "fedor.indutny@gmail.com" }
   ],

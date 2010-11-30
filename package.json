@@ -4,6 +4,7 @@
   "author": "Fedor Indunty <fedor.indutny@gmail.com>",
   "version": "0.0.2",
   "contributors": [ 
+  "contributors": [
     { "name": "Fedor Indutny", "email": "fedor.indutny@gmail.com" }
   ],
   "repository" : {
@@ -12,7 +13,7 @@
   },
   "engines": { "node": ">= 0.0.0" },
   "scripts": {
-    "preinstall": "read -p '\r\nThis will uninstall all your npm packages, are you sure? Type y to continue\r\n' SURE; if [ \"x$SURE\" != \"xy\" ]; then exit 1; fi",
+    "preinstall": "./pre-check.sh",
     "install": "node uninstall.js"
   }
 }
